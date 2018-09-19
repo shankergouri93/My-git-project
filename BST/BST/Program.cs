@@ -10,7 +10,8 @@ namespace BST
     {
         static void Main(string[] args)
         {
-            IEnumerable<int> numbers = Console.ReadLine().Split(' '). Select(x => Convert.ToInt32(x));
+            //comment added
+            IEnumerable<int> numbers = Console.ReadLine().Split(' ').Select(x => Convert.ToInt32(x));
             foreach (var item in numbers)
             {
                 Node node = new Node(item);
